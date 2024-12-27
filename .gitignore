@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+.kotlin
+local.properties
+
+# shouldn't put keys in vcs
+/keys
+
+# Ignore IDE files
+**/.idea/*
+
+# Except code styles and run configurations
+!**/.idea/codeStyles
+!**/.idea/runConfigurations
+!**/.idea/icon.svg
+!**/.idea/.name
+
+# ios stuff
+/app/ios/Pods/
+/app/ios/ios.xcworkspace/xcuserdata/
+
+# Build logic
+/buildSrc/build/
