@@ -48,6 +48,7 @@ kotlin {
         implementation(libs.koin.core)
         implementation(libs.molecule.runtime)
         implementation(libs.kstore)
+        implementation(libs.decompose)
 
     }
 
